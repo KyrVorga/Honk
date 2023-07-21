@@ -6,4 +6,4 @@ $ source venv/Scripts/activate
 $ pip install pygame
 $ pip install pyinstaller
 
-$ pyinstaller --add-data 'audio/Honk.mp3:.' --onefile --windowed Honk.py
+$ pyinstaller --add-data 'audio/Honk.mp3;audio' --onefile --windowed Honk.py
